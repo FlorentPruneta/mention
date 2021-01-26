@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./css/App.css";
 import RESTService from "../RESTService";
-import Card from "../components/Card";
 import Mention from "../components/Mention";
 
 const App = () => {
@@ -12,11 +11,10 @@ const App = () => {
     RESTService.request()
       .then(response => response.json())
       .then(data => {
-        console.debug("data", data);
         setMentions(data.mentions);
       })
       .catch(e => {
-        console.debug("e", e)
+        alert("Une erreur est survenue")
       });
   }, []);
 
