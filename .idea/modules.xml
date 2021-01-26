@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../synktory/projects/axelor-planning-per-machine/.idea/axelor-planning-per-machine.iml" filepath="$PROJECT_DIR$/../synktory/projects/axelor-planning-per-machine/.idea/axelor-planning-per-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../folhomee/.idea/folhomee.iml" filepath="$PROJECT_DIR$/../folhomee/.idea/folhomee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mention.iml" filepath="$PROJECT_DIR$/.idea/mention.iml" />
+    </modules>
+  </component>
+</project>
