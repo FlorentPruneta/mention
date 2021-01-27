@@ -14,11 +14,15 @@ const useStyles = makeStyles(theme => ({
     maxWidth: "60%",
     maxHeight: "200px",
     marginLeft: "20%",
-    marginTop: "0.5%"
+    marginTop: "0.5%",
+    cursor: "pointer"
   },
   paper: {
     padding: theme.spacing(2),
-    margin: "auto"
+    margin: "auto",
+    '&:hover': {
+      backgroundColor: '#e6ffff'
+    }
   },
   image: {
     width: 64,
